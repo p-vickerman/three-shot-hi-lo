@@ -8,7 +8,7 @@ let attempt = 1;
 
 
 
-while (guess !==number  && attempt < 3) {
+while (guess !== number  && attempt <= 2) {
     attempt++;
     if (guess > number){
         guess= Number(prompt("Sorry, too high! Guess again."))
